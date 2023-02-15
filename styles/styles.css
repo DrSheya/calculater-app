@@ -2,7 +2,7 @@ body {
     width: 90%;
     justify-content: center;
     align-items: center;
-    background-color: rgba(19, 18, 18, 0.788);
+    background-color: rgba(19, 18, 18, 0.884);
 }
 
 /* main container styles */
@@ -26,8 +26,8 @@ align-items: center;
 
 .numpad-button {
     margin: 2px;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     cursor: pointer;
     background-color: rgba(19, 18, 18, 0.788);
     box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
@@ -35,7 +35,7 @@ align-items: center;
     color: aliceblue;
     font-weight: 200;
     font-size: 28pt;
-    border-radius: 5px;
+    border-radius: 30%;
     text-align: center;
 }
 
@@ -52,8 +52,8 @@ input {
 }
 
 .calc-input {
-    width: 292px;
-    height: 100px;
+    width: 320px;
+    height: 160px;
     background-color: rgba(19, 18, 18, 0.788);
     box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
     border: 1px solid rgba(231, 231, 231, 0.452);
