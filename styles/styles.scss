@@ -1,0 +1,70 @@
+$fontcolor: #f0f8ff;
+$backgroundColor: rgba(19, 18, 18, 0.884);
+$borderColor: rgba(231, 231, 231, 0.452);
+$boxShadowColor: rgba(37, 37, 37, 0.925);
+$buttonRadius: 30%;
+
+body {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundColor;
+}
+
+/* main container styles */
+
+.container-program {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+
+/* button styles */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numpad-button {
+    margin: 2px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    background-color: $backgroundColor;
+    box-shadow: 2px 2px 2px $boxShadowColor;
+    border: 1px solid $borderColor;
+    color: $fontcolor;
+    font-weight: 200;
+    font-size: 28pt;
+    border-radius: $buttonRadius;
+    text-align: center;
+}
+
+/* inputfield styles */
+.container-input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    input {
+        pointer-events: none;
+    }
+
+}
+
+.calc-input {
+    width: 320px;
+    height: 160px;
+    background-color: $backgroundColor;
+    box-shadow: 2px 2px 2px $boxShadowColor;
+    border: 1px solid $borderColor;
+    border-radius: 15px;
+    font-size: 24pt;
+    color: $fontcolor;
+}

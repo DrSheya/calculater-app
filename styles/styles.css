@@ -1,63 +1,58 @@
 body {
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(19, 18, 18, 0.884);
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 18, 18, 0.884);
 }
 
 /* main container styles */
-
 .container-program {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 10px;
-    width: 100%;
-
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  width: 100%;
 }
-
 
 /* button styles */
 .buttons-container {
-display: flex;
-justify-content: center;
-align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .numpad-button {
-    margin: 2px;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-    background-color: rgba(19, 18, 18, 0.788);
-    box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
-    border: 1px solid rgba(231, 231, 231, 0.452);
-    color: aliceblue;
-    font-weight: 200;
-    font-size: 28pt;
-    border-radius: 30%;
-    text-align: center;
+  margin: 2px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  background-color: rgba(19, 18, 18, 0.884);
+  box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
+  border: 1px solid rgba(231, 231, 231, 0.452);
+  color: #f0f8ff;
+  font-weight: 200;
+  font-size: 28pt;
+  border-radius: 30%;
+  text-align: center;
 }
 
 /* inputfield styles */
 .container-input-field {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
-input {
-    pointer-events: none;
+.container-input-field input {
+  pointer-events: none;
 }
 
 .calc-input {
-    width: 320px;
-    height: 160px;
-    background-color: rgba(19, 18, 18, 0.788);
-    box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
-    border: 1px solid rgba(231, 231, 231, 0.452);
-    border-radius: 15px;
-    font-size: 24pt;
-    color: aliceblue;
-}
+  width: 320px;
+  height: 160px;
+  background-color: rgba(19, 18, 18, 0.884);
+  box-shadow: 2px 2px 2px rgba(37, 37, 37, 0.925);
+  border: 1px solid rgba(231, 231, 231, 0.452);
+  border-radius: 15px;
+  font-size: 24pt;
+  color: #f0f8ff;
+}/*# sourceMappingURL=styles.css.map */
