@@ -4,6 +4,12 @@ $borderColor: rgba(231, 231, 231, 0.452);
 $boxShadowColor: rgba(37, 37, 37, 0.925);
 $buttonRadius: 30%;
 
+@mixin displayItem () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     width: 90%;
     justify-content: center;
@@ -24,9 +30,7 @@ body {
 
 /* button styles */
 .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include displayItem();
 
 }
 
@@ -47,9 +51,7 @@ body {
 
 /* inputfield styles */
 .container-input-field {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include displayItem();
     margin-bottom: 20px;
 
     input {
