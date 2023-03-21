@@ -1,15 +1,34 @@
 'use strict';
 // Get the input field and all the number buttons
 const inputField = document.getElementById('calculation');
-const numberButtons = document.querySelectorAll('.numpad-button');
+const numberButtons = document.querySelectorAll('button');
 
-// Attach a click event listener to each button
-numberButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    // Get the value of the clicked button
-    const buttonValue = button.textContent;
+for (let i = 0; i < numberButtons.length; i++){
+  numberButtons[i].addEventListener('click', () => {
+    const buttonValue = numberButtons[i].textContent;
 
-    // Append the button value to the input field
-    inputField.value += buttonValue;
+    if (buttonValue === 'C') {
+      clearField();
+    }
+    else if (buttonValue === '=') {
+      calculate();
+    }
+    else {
+      appendButtonValue(buttonValue);
+    }
   });
-});
+}
+
+
+function appendButtonValue(buttonValue) {
+  // Append the button value to the input field
+  inputField.value += buttonValue;
+}
+
+function calculate() {
+  inputField.value = eval(inputField.value); 
+}
+
+function clearField() {
+  inputField.value = '';
+}

@@ -55,4 +55,9 @@ body {
   border-radius: 15px;
   font-size: 24pt;
   color: #f0f8ff;
+}
+
+input {
+  padding-left: 30px;
+  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */
