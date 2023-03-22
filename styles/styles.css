@@ -34,6 +34,14 @@ body {
   border-radius: 30%;
   text-align: center;
 }
+.numpad-button:hover {
+  background-color: rgba(41, 39, 39, 0.884);
+}
+
+#button-equal {
+  width: 160px;
+  border-radius: 15px;
+}
 
 /* inputfield styles */
 .container-input-field {

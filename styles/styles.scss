@@ -1,5 +1,6 @@
 $fontcolor: #f0f8ff;
 $backgroundColor: rgba(19, 18, 18, 0.884);
+$backgroundColorHover: rgba(41, 39, 39, 0.884);
 $borderColor: rgba(231, 231, 231, 0.452);
 $boxShadowColor: rgba(37, 37, 37, 0.925);
 $buttonRadius: 30%;
@@ -47,6 +48,13 @@ body {
     font-size: 28pt;
     border-radius: $buttonRadius;
     text-align: center;
+    &:hover {
+        background-color: $backgroundColorHover;
+    }
+}
+#button-equal {
+    width: 160px;
+    border-radius: 15px;
 }
 
 /* inputfield styles */
